@@ -1,0 +1,10 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Arkansas,8160.0,1,43000.0,['severe weather'],SPP
+California,6780.0,5,769750.0,"['system operability disruption', 'severe weather', 'system operability disruption']",WECC
+Connecticut,5880.0,1,224912.0,['severe weather'],NPCC
+Florida,230.0,1,25000.0,['system operability disruption'],SERC
+Michigan,3600.0,1,190000.0,['severe weather'],ECAR
+Missouri,15420.0,1,95000.0,['severe weather'],SPP
+Oklahoma,11880.0,1,1881134.0,['severe weather'],SPP
+Pennsylvania,2790.0,2,100815.0,"['severe weather', 'severe weather']",RFC
+Virginia,2691.0,1,130000.0,['severe weather'],SERC

@@ -10,7 +10,19 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@types/d3-array": "^3.2.1",
+    "@types/d3-fetch": "^3.0.7",
+    "@types/d3-geo": "^3.1.0",
+    "@types/d3-scale": "^4.0.8",
+    "@types/topojson": "^3.2.6",
     "svelte": "^4.2.12",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "d3-array": "^3.2.4",
+    "d3-fetch": "^3.0.1",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "topojson": "^3.0.2"
   }
 }

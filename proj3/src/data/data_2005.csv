@@ -1,0 +1,18 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Arkansas,126.0,1,50797.0,['severe weather'],ECAR
+California,8100.0,10,613377.6666666666,"['system operability disruption', 'equipment failure', 'equipment failure']",WECC
+Florida,24780.0,8,428917.125,"['severe weather', 'severe weather', 'severe weather']",FRCC
+Georgia,1865.0,2,67329.5,"['severe weather', 'severe weather']",SERC
+Illinois,149.0,1,51500.0,['equipment failure'],RFC
+Indiana,15950.0,1,114791.0,['severe weather'],ECAR
+Kansas,14040.0,1,211000.0,['severe weather'],SPP
+Louisiana,18804.0,5,369000.0,"['severe weather', 'severe weather', 'severe weather']",SPP
+Maryland,5628.0,3,69220.33333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
+Michigan,8160.0,6,144107.66666666666,"['severe weather', 'severe weather', 'severe weather']",ECAR
+Minnesota,8880.0,2,250000.0,"['severe weather', 'severe weather']",MRO
+New York,3240.0,1,65000.0,['severe weather'],NPCC
+North Carolina,1440.0,2,55800.0,"['severe weather', 'severe weather']",SERC
+Ohio,11640.0,3,202663.33333333334,"['severe weather', 'severe weather', 'severe weather']",ECAR
+Pennsylvania,1757.0,2,118418.5,"['severe weather', 'severe weather']",RFC
+Texas,12180.0,4,320250.0,"['severe weather', 'severe weather', 'severe weather']",TRE
+Wisconsin,4410.0,2,79000.0,"['severe weather', 'severe weather']",RFC

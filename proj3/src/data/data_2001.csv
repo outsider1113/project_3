@@ -1,0 +1,6 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+California,2055.0,8,47924.0,"['system operability disruption', 'system operability disruption', 'public appeal']",WECC
+Massachusetts,103.0,1,130000.0,['system operability disruption'],NPCC
+New York,494.0,1,,['equipment failure'],NPCC
+Texas,10140.0,3,58193.0,"['system operability disruption', 'severe weather', 'system operability disruption']",TRE
+Virginia,241.0,1,600000.0,['system operability disruption'],SERC

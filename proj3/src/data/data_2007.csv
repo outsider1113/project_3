@@ -1,0 +1,19 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+California,4080.0,17,179951.75,"['severe weather', 'system operability disruption', 'equipment failure']",WECC
+Connecticut,4260.0,1,67000.0,['severe weather'],NPCC
+Illinois,7609.0,3,333863.3333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
+Indiana,47.0,1,9600.0,['islanding'],RFC
+Iowa,1044.0,2,177500.0,"['severe weather', 'severe weather']",MRO
+Kansas,13650.0,1,95000.0,['severe weather'],MRO
+Maine,3604.0,3,81562.33333333333,"['fuel supply emergency', 'severe weather', 'severe weather']",NPCC
+Maryland,5790.0,2,146591.5,"['severe weather', 'severe weather']",RFC
+Michigan,9150.0,7,88982.5,"['severe weather', 'severe weather', 'severe weather']",RFC
+Missouri,2070.0,1,63000.0,['severe weather'],SERC
+New Hampshire,660.0,1,102568.0,['severe weather'],NPCC
+New York,3300.0,3,218500.0,"['severe weather', 'severe weather', 'system operability disruption']",NPCC
+Oklahoma,13972.0,1,256663.0,['severe weather'],SPP
+Pennsylvania,78.0,1,55000.0,['severe weather'],RFC
+Texas,2340.0,5,145925.0,"['severe weather', 'system operability disruption', 'severe weather']",SPP
+Utah,283.0,1,,['severe weather'],WECC
+Virginia,816.0,2,82750.0,"['severe weather', 'severe weather']",SERC
+Washington,6276.0,2,135216.5,"['severe weather', 'severe weather']",WECC

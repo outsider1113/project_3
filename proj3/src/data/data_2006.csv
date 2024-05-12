@@ -1,0 +1,23 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Arkansas,414.0,1,8000.0,['public appeal'],SERC
+California,8472.0,9,493523.2,"['severe weather', 'severe weather', 'severe weather']",WECC
+Colorado,2140.0,2,65000.0,"['system operability disruption', 'severe weather']",WECC
+Connecticut,145.0,1,0.0,['severe weather'],NPCC
+Georgia,120.0,1,109000.0,['severe weather'],SERC
+Hawaii,1906.0,3,126728.66666666667,"['severe weather', 'system operability disruption', 'severe weather']",HECO
+Illinois,2370.0,3,235950.33333333334,"['severe weather', 'severe weather', 'severe weather']",RFC
+Indiana,4045.0,1,186000.0,['severe weather'],RFC
+Maine,198.0,1,63000.0,['severe weather'],NPCC
+Maryland,4440.0,3,103333.33333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
+Michigan,7080.0,2,283544.5,"['severe weather', 'severe weather']",RFC
+Nebraska,9600.0,1,15000.0,['severe weather'],MRO
+New Jersey,4140.0,2,115000.0,"['severe weather', 'severe weather']",RFC
+New York,15492.0,4,148750.0,"['severe weather', 'severe weather', 'severe weather']",NPCC
+North Carolina,990.0,2,66500.0,"['severe weather', 'severe weather']",SERC
+Ohio,1420.0,2,59106.0,"['severe weather', 'severe weather']",RFC
+Oklahoma,300.0,1,,['public appeal'],RFC
+Oregon,4380.0,3,148333.33333333334,"['severe weather', 'severe weather', 'severe weather']",WECC
+Pennsylvania,7523.0,5,212096.6,"['severe weather', 'severe weather', 'severe weather']",RFC
+Texas,900.0,8,140411.7142857143,"['system operability disruption', 'system operability disruption', 'severe weather']",TRE
+Virginia,1072.0,3,89333.33333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
+Washington,22769.0,8,187484.875,"['severe weather', 'severe weather', 'severe weather']",WECC

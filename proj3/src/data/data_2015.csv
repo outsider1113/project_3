@@ -1,0 +1,32 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,803.0,1,111644.0,['severe weather'],SERC
+Arizona,70.0,3,,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
+Arkansas,2363.0,2,,"['severe weather', 'intentional attack']",SPP
+California,2050.0,23,18116.76923076923,"['public appeal', 'intentional attack', 'system operability disruption']",WECC
+Colorado,105.0,1,,['intentional attack'],WECC
+Delaware,4254.0,1,65000.0,['severe weather'],RFC
+Georgia,1999.0,1,186035.0,['severe weather'],SERC
+Illinois,90.0,1,115000.0,['severe weather'],RFC
+Indiana,120.0,1,0.0,['intentional attack'],RFC
+Kansas,1406.0,4,23333.333333333332,"['intentional attack', 'intentional attack', 'severe weather']",SPP
+Kentucky,108.0,1,110.0,['intentional attack'],SERC
+Maine,1.0,1,0.0,['intentional attack'],NPCC
+Maryland,304.0,1,,['system operability disruption'],RFC
+Michigan,4338.0,6,96772.33333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
+Minnesota,1740.0,2,127970.5,"['severe weather', 'intentional attack']",MRO
+Mississippi,5.0,1,0.0,['intentional attack'],SERC
+Missouri,65.0,1,,['system operability disruption'],SERC
+Nevada,1.0,1,0.0,['intentional attack'],WECC
+New Jersey,10080.0,2,209669.0,"['system operability disruption', 'severe weather']",RFC
+New York,255.0,3,0.0,"['intentional attack', 'fuel supply emergency', 'intentional attack']",NPCC
+North Carolina,1950.0,1,103776.0,['severe weather'],SERC
+Ohio,7.0,1,0.0,['intentional attack'],RFC
+Oklahoma,3300.0,3,37195.0,"['severe weather', 'severe weather', 'severe weather']",SPP
+Oregon,210.0,5,35500.0,"['severe weather', 'intentional attack', 'intentional attack']",WECC
+Pennsylvania,1642.0,2,117500.0,"['severe weather', 'intentional attack']",RFC
+Tennessee,935.0,6,25107.5,"['system operability disruption', 'system operability disruption', 'severe weather']",SERC
+Texas,5115.0,16,116097.81818181818,"['system operability disruption', 'severe weather', 'severe weather']",TRE
+Utah,120.0,6,1450.0,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
+Virginia,2435.0,1,52739.0,['severe weather'],RFC
+Washington,8880.0,7,97575.0,"['severe weather', 'islanding', 'system operability disruption']",WECC
+West Virginia,1.0,1,,['intentional attack'],RFC
