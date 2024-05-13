@@ -1,4 +1,7 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"", 
+Alaska,,,,"",WECC
+Arizona,,,,"",WECC
 Arkansas,206.0,1,25159.0,['public appeal'],SERC
 California,14190.0,25,170846.7142857143,"['system operability disruption', 'islanding', 'system operability disruption']",WECC
 Colorado,391.0,1,31000.0,['system operability disruption'],WECC
@@ -6,24 +9,44 @@ Connecticut,3365.0,2,50173.0,"['severe weather', 'severe weather']",NPCC
 Delaware,50.0,1,18400.0,['equipment failure'],RFC
 District of Columbia,9886.0,3,91794.33333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
 Florida,372.0,1,,['system operability disruption'],FRCC
+Georgia,,,,"",SERC
+Hawaii,,,,"",HECO
+Idaho,,,,"",WECC
 Illinois,3000.0,4,254776.5,"['severe weather', 'severe weather', 'severe weather']",RFC
 Indiana,23187.0,3,73672.5,"['severe weather', 'severe weather', 'system operability disruption']",RFC
+Iowa,,,,"",RFC
+Kansas,,,,"",SPP
+Kentucky,,,,"",RFC
 Louisiana,2880.0,10,,"['public appeal', 'public appeal', 'public appeal']",SERC
 Maine,673.0,1,60863.0,['severe weather'],NPCC
 Maryland,7700.0,2,210850.0,"['severe weather', 'severe weather']",RFC
+Massachusetts,,,,"",NPCC
 Michigan,6030.0,8,127838.625,"['severe weather', 'severe weather', 'severe weather']",RFC
 Minnesota,3000.0,3,64333.333333333336,"['severe weather', 'severe weather', 'severe weather']",MRO
+Mississippi,,,,"",SERC
+Missouri,,,,"",SERC
 Montana,13.0,1,,['islanding'],MRO
 Nebraska,159.0,1,,['public appeal'],SPP
+Nevada,,,,"",WECC
+New Hampshire,,,,"",NPCC
 New Jersey,11580.0,4,227750.0,"['severe weather', 'severe weather', 'severe weather']",RFC
+New Mexico,,,,"",WECC
 New York,18240.0,7,132750.0,"['fuel supply emergency', 'severe weather', 'severe weather']",NPCC
 North Carolina,42.0,2,16786.0,"['system operability disruption', 'system operability disruption']",SERC
+North Dakota,,,,"",MRO
 Ohio,1843.0,1,50636.0,['severe weather'],RFC
 Oklahoma,7200.0,2,68705.0,"['severe weather', 'severe weather']",SPP
+Oregon,,,,"",WECC
 Pennsylvania,9450.0,8,138911.5,"['severe weather', 'severe weather', 'severe weather']",RFC
+Rhode Island,,,,"",NPCC
+South Carolina,,,,"",SERC
+South Dakota,,,,"",RFC
+Tennessee,,,,"",SERC
 Texas,6300.0,5,225535.4,"['severe weather', 'severe weather', 'severe weather']",TRE
 Utah,2275.0,1,,['public appeal'],WECC
+Vermont,,,,"",NPCC
 Virginia,3366.0,4,93719.0,"['severe weather', 'severe weather', 'severe weather']",SERC
 Washington,2700.0,2,107812.5,"['severe weather', 'severe weather']",WECC
+West Virginia,,,,"",RFC
 Wisconsin,480.0,2,35300.0,"['public appeal', 'severe weather']",MRO
 Wyoming,61.0,1,,['equipment failure'],WECC

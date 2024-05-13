@@ -1,6 +1,51 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"", 
+Alaska,,,,"",WECC
+Arizona,,,,"",WECC
+Arkansas,,,,"",WECC
 California,2055.0,8,47924.0,"['system operability disruption', 'system operability disruption', 'public appeal']",WECC
+Colorado,,,,"",WECC
+Connecticut,,,,"",NPCC
+Delaware,,,,"",RFC
+Florida,,,,"",SERC
+Georgia,,,,"",SERC
+Hawaii,,,,"",WECC
+Idaho,,,,"",WECC
+Illinois,,,,"",SERC
+Indiana,,,,"",MRO
+Iowa,,,,"",MRO
+Kansas,,,,"",SPP
+Kentucky,,,,"",SERC
+Louisiana,,,,"",SERC
+Maine,,,,"",NPCC
+Maryland,,,,"",RFC
 Massachusetts,103.0,1,130000.0,['system operability disruption'],NPCC
+Michigan,,,,"",MRO
+Minnesota,,,,"",MRO
+Mississippi,,,,"",SERC
+Missouri,,,,"",MRO
+Montana,,,,"",WECC
+Nebraska,,,,"",SPP
+Nevada,,,,"",WECC
+New Hampshire,,,,"",NPCC
+New Jersey,,,,"",RFC
+New Mexico,,,,"",WECC
 New York,494.0,1,,['equipment failure'],NPCC
+North Carolina,,,,"",SERC
+North Dakota,,,,"",MRO
+Ohio,,,,"",MRO
+Oklahoma,,,,"",SPP
+Oregon,,,,"",WECC
+Pennsylvania,,,,"",RFC
+Rhode Island,,,,"",NPCC
+South Carolina,,,,"",SERC
+South Dakota,,,,"",MRO
+Tennessee,,,,"",SERC
 Texas,10140.0,3,58193.0,"['system operability disruption', 'severe weather', 'system operability disruption']",TRE
+Utah,,,,"",WECC
+Vermont,,,,"",NPCC
 Virginia,241.0,1,600000.0,['system operability disruption'],SERC
+Washington,,,,"",WECC
+West Virginia,,,,"",RFC
+Wisconsin,,,,"",MRO
+Wyoming,,,,"",WECC

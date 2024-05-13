@@ -1,22 +1,51 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"", 
+Alaska,,,,"",WECC
 Arizona,418.0,1,30000.0,['equipment failure'],WECC
+Arkansas,,,,"",WECC
 California,2790.0,10,197854.75,"['system operability disruption', 'severe weather', 'severe weather']",WECC
+Colorado,,,,"",WECC
+Connecticut,,,,"",NPCC
+Delaware,,,,"",RFC
 Florida,13920.0,17,415847.9411764706,"['public appeal', 'public appeal', 'severe weather']",FRCC
 Georgia,1800.0,5,79351.8,"['severe weather', 'severe weather', 'severe weather']",SERC
+Hawaii,,,,"",WECC
 Idaho,95.0,1,35000.0,['system operability disruption'],WECC
 Illinois,1530.0,2,163500.0,"['severe weather', 'severe weather']",RFC
 Indiana,5250.0,1,135000.0,['severe weather'],ECAR
+Iowa,,,,"",MRO
+Kansas,,,,"",SPP
+Kentucky,,,,"",SERC
 Louisiana,8054.0,3,59057.0,"['severe weather', 'severe weather', 'public appeal']",ECAR
+Maine,,,,"",NPCC
 Maryland,2279.0,2,96000.0,"['severe weather', 'severe weather']",RFC
 Massachusetts,374.0,1,380000.0,['severe weather'],NPCC
 Michigan,7800.0,5,180535.8,"['severe weather', 'severe weather', 'severe weather']",ECAR
+Minnesota,,,,"",MRO
+Mississippi,,,,"",SERC
+Missouri,,,,"",MRO
+Montana,,,,"",WECC
 Nebraska,4.0,1,120212.0,['severe weather'],MRO
+Nevada,,,,"",WECC
+New Hampshire,,,,"",NPCC
+New Jersey,,,,"",RFC
+New Mexico,,,,"",WECC
 New York,4680.0,3,18600.0,"['public appeal', 'public appeal', 'public appeal']",NPCC
 North Carolina,1890.0,1,112000.0,['severe weather'],SERC
+North Dakota,,,,"",MRO
 Ohio,4920.0,2,204000.0,"['severe weather', 'severe weather']",ECAR
 Oklahoma,6685.0,1,56874.0,['severe weather'],ECAR
+Oregon,,,,"",WECC
 Pennsylvania,2319.0,1,105312.0,['severe weather'],RFC
+Rhode Island,,,,"",NPCC
 South Carolina,3480.0,2,137500.0,"['severe weather', 'severe weather']",SERC
+South Dakota,,,,"",MRO
+Tennessee,,,,"",SERC
 Texas,17865.0,7,154916.66666666666,"['severe weather', 'equipment failure', 'equipment failure']",TRE
+Utah,,,,"",WECC
+Vermont,,,,"",NPCC
 Virginia,624.0,1,88110.0,['severe weather'],SERC
 Washington,5340.0,2,166000.0,"['severe weather', 'severe weather']",WECC
+West Virginia,,,,"",RFC
+Wisconsin,,,,"",MRO
+Wyoming,,,,"",WECC

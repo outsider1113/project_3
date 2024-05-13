@@ -1,19 +1,52 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"", 
+Alaska,,,,"",WECC
+Arizona,,,,"",WECC
+Arkansas,,,,"",WECC
 California,4080.0,17,179951.75,"['severe weather', 'system operability disruption', 'equipment failure']",WECC
+Colorado,,,,"",WECC
 Connecticut,4260.0,1,67000.0,['severe weather'],NPCC
+Delaware,,,,"",RFC
+District of Columbia,,,,"",RFC
+Florida,,,,"",SERC
+Georgia,,,,"",SERC
+Hawaii,,,,"",WECC
+Idaho,,,,"",WECC
 Illinois,7609.0,3,333863.3333333333,"['severe weather', 'severe weather', 'severe weather']",RFC
 Indiana,47.0,1,9600.0,['islanding'],RFC
 Iowa,1044.0,2,177500.0,"['severe weather', 'severe weather']",MRO
 Kansas,13650.0,1,95000.0,['severe weather'],MRO
+Kentucky,,,,"",SERC
+Louisiana,,,,"",SPP
 Maine,3604.0,3,81562.33333333333,"['fuel supply emergency', 'severe weather', 'severe weather']",NPCC
 Maryland,5790.0,2,146591.5,"['severe weather', 'severe weather']",RFC
+Massachusetts,,,,"",NPCC
 Michigan,9150.0,7,88982.5,"['severe weather', 'severe weather', 'severe weather']",RFC
+Minnesota,,,,"",MRO
+Mississippi,,,,"",SERC
 Missouri,2070.0,1,63000.0,['severe weather'],SERC
+Montana,,,,"",WECC
+Nebraska,,,,"",SPP
+Nevada,,,,"",WECC
 New Hampshire,660.0,1,102568.0,['severe weather'],NPCC
+New Jersey,,,,"",RFC
+New Mexico,,,,"",WECC
 New York,3300.0,3,218500.0,"['severe weather', 'severe weather', 'system operability disruption']",NPCC
+North Carolina,,,,"",SERC
+North Dakota,,,,"",MRO
+Ohio,,,,"",RFC
 Oklahoma,13972.0,1,256663.0,['severe weather'],SPP
+Oregon,,,,"",WECC
 Pennsylvania,78.0,1,55000.0,['severe weather'],RFC
+Rhode Island,,,,"",NPCC
+South Carolina,,,,"",SERC
+South Dakota,,,,"",MRO
+Tennessee,,,,"",SERC
 Texas,2340.0,5,145925.0,"['severe weather', 'system operability disruption', 'severe weather']",SPP
 Utah,283.0,1,,['severe weather'],WECC
+Vermont,,,,"",NPCC
 Virginia,816.0,2,82750.0,"['severe weather', 'severe weather']",SERC
 Washington,6276.0,2,135216.5,"['severe weather', 'severe weather']",WECC
+West Virginia,,,,"",RFC
+Wisconsin,,,,"",MRO
+Wyoming,,,,"",WECC

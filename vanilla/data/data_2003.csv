@@ -1,18 +1,52 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"", 
+Alaska,,,,"",WECC
 Arizona,100.0,2,68500.0,"['equipment failure', 'equipment failure']",WECC
+Arkansas,,,,"",WECC
 California,5910.0,4,117687.75,"['severe weather', 'severe weather', 'equipment failure']",WECC
+Colorado,,,,"",WECC
+Connecticut,,,,"",NPCC
+Delaware,,,,"",RFC
 District of Columbia,14500.0,1,530000.0,['severe weather'],RFC
 Florida,816.0,1,16500.0,['system operability disruption'],FRCC
+Georgia,,,,"",SERC
+Hawaii,,,,"",WECC
 Idaho,1548.0,1,0.0,['public appeal'],WECC
 Illinois,960.0,3,84333.33333333333,"['severe weather', 'severe weather', 'severe weather']",SERC
+Indiana,,,,"",MRO
+Iowa,,,,"",MRO
+Kansas,,,,"",SPP
+Kentucky,,,,"",SERC
+Louisiana,,,,"",SERC
+Maine,,,,"",NPCC
 Maryland,12890.0,5,230039.0,"['severe weather', 'severe weather', 'severe weather']",RFC
 Massachusetts,115.0,1,300000.0,['severe weather'],NPCC
 Michigan,5820.0,7,527000.0,"['severe weather', 'system operability disruption', 'severe weather']",ECAR
+Minnesota,,,,"",MRO
+Mississippi,,,,"",SERC
+Missouri,,,,"",MRO
+Montana,,,,"",WECC
+Nebraska,,,,"",SPP
+Nevada,,,,"",WECC
+New Hampshire,,,,"",NPCC
+New Jersey,,,,"",RFC
+New Mexico,,,,"",WECC
 New York,5513.0,4,1111876.6666666667,"['severe weather', 'system operability disruption', 'system operability disruption']",NPCC
 North Carolina,3388.0,3,236666.66666666666,"['severe weather', 'severe weather', 'severe weather']",SERC
+North Dakota,,,,"",MRO
 Ohio,5040.0,3,668750.0,"['severe weather', 'system operability disruption', 'intentional attack']",ECAR
+Oklahoma,,,,"",SPP
+Oregon,,,,"",WECC
 Pennsylvania,4338.0,1,185000.0,['severe weather'],RFC
+Rhode Island,,,,"",NPCC
+South Carolina,,,,"",SERC
+South Dakota,,,,"",MRO
+Tennessee,,,,"",SERC
 Texas,9486.0,3,122843.33333333333,"['severe weather', 'equipment failure', 'system operability disruption']",TRE
+Utah,,,,"",WECC
+Vermont,,,,"",NPCC
 Virginia,131.0,2,73500.0,"['severe weather', 'severe weather']",SERC
 Washington,6480.0,1,200000.0,['severe weather'],WECC
+West Virginia,,,,"",RFC
 Wisconsin,1219.0,2,26000.0,"['severe weather', 'intentional attack']",RFC
+Wyoming,,,,"",WECC

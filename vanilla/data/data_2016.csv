@@ -1,23 +1,52 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"",
+Alaska,,,,"",
 Arizona,227.0,1,2713.0,['intentional attack'],WECC
+Arkansas,,,,"",
 California,223.0,2,4300.0,"['system operability disruption', 'islanding']",WECC
 Colorado,4019.0,1,0.0,['severe weather'],WECC
+Connecticut,,,,"",
 Delaware,507.0,4,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",RFC
+District of Columbia,,,,"",
 Florida,83.0,1,0.0,['intentional attack'],FRCC
+Georgia,,,,"",
+Hawaii,,,,"",
 Idaho,224.0,3,0.0,"['system operability disruption', 'intentional attack', 'system operability disruption']",WECC
+Illinois,,,,"",
+Indiana,,,,"",
+Iowa,,,,"",
+Kansas,,,,"",
+Kentucky,,,,"",
 Louisiana,3180.0,1,85000.0,['system operability disruption'],SERC
+Maine,,,,"",
 Maryland,1673.0,1,0.0,['intentional attack'],RFC
 Massachusetts,1068.0,1,50500.0,['intentional attack'],NPCC
 Michigan,1513.0,2,153104.5,"['severe weather', 'severe weather']",RFC
+Minnesota,,,,"",
+Mississippi,,,,"",
 Missouri,1199.0,1,0.0,['intentional attack'],SERC
+Montana,,,,"",
+Nebraska,,,,"",
 Nevada,60.0,1,110000.0,['intentional attack'],WECC
+New Hampshire,,,,"",
 New Jersey,76.0,2,25450.0,"['intentional attack', 'severe weather']",RFC
+New Mexico,,,,"",
 New York,18717.0,3,28322.5,"['system operability disruption', 'intentional attack', 'fuel supply emergency']",NPCC
 North Carolina,1355.0,2,101672.5,"['severe weather', 'intentional attack']",SERC
+North Dakota,,,,"",
+Ohio,,,,"",
 Oklahoma,796.0,1,96966.0,['severe weather'],SPP
 Oregon,2680.0,2,0.0,"['intentional attack', 'intentional attack']",WECC
 Pennsylvania,278.0,2,0.0,"['intentional attack', 'system operability disruption']",RFC
+Rhode Island,,,,"",
+South Carolina,,,,"",
+South Dakota,,,,"",
+Tennessee,,,,"",
 Texas,3255.0,6,138161.16666666666,"['severe weather', 'system operability disruption', 'intentional attack']",TRE
 Utah,204.0,5,17035.8,"['intentional attack', 'system operability disruption', 'intentional attack']",WECC
+Vermont,,,,"",
+Virginia,,,,"",
 Washington,1919.0,3,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
+West Virginia,,,,"",
 Wisconsin,1605.0,1,0.0,['intentional attack'],MRO
+Wyoming,,,,""

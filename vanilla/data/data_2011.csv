@@ -1,4 +1,6 @@
 state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,,,,"",
+Alaska,,,,"",
 Arizona,554.0,3,114500.0,"['system operability disruption', 'equipment failure', 'system operability disruption']",WECC
 Arkansas,3314.0,6,8666.666666666666,"['islanding', 'severe weather', 'severe weather']",SPP
 California,9855.0,16,67182.57142857143,"['severe weather', 'severe weather', 'intentional attack']",WECC
@@ -12,19 +14,23 @@ Hawaii,174.0,1,62000.0,['severe weather'],HECO
 Idaho,870.0,3,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
 Illinois,1830.0,10,177833.33333333334,"['intentional attack', 'severe weather', 'severe weather']",RFC
 Indiana,3646.0,6,139346.75,"['severe weather', 'intentional attack', 'intentional attack']",RFC
+Iowa,,,,"",
 Kansas,913.0,1,,['public appeal'],SPP
 Kentucky,1579.0,2,181700.0,"['fuel supply emergency', 'severe weather']",SERC
 Louisiana,1690.0,2,11000.0,"['equipment failure', 'severe weather']",SERC
 Maine,195.0,4,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",NPCC
 Maryland,11700.0,8,170777.0,"['intentional attack', 'intentional attack', 'severe weather']",RFC
 Massachusetts,480.0,3,43333.333333333336,"['severe weather', 'severe weather', 'intentional attack']",NPCC
-Michigan,11525.0,14,90698.25,"['severe weather', 'public appeal', 'system operability disruption']",RFC
+Michigan,,,,"",
 Minnesota,3060.0,3,23333.333333333332,"['severe weather', 'intentional attack', 'intentional attack']",MRO
 Mississippi,300.0,1,10000.0,['system operability disruption'],SERC
 Missouri,12652.0,3,48333.333333333336,"['severe weather', 'severe weather', 'severe weather']",SPP
+Montana,,,,"",
+Nebraska,,,,"",
 Nevada,1895.0,2,0.0,"['intentional attack', 'intentional attack']",WECC
 New Hampshire,200.0,7,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",NPCC
 New Jersey,13141.0,12,174908.33333333334,"['severe weather', 'severe weather', 'intentional attack']",RFC
+New Mexico,,,,"",
 New York,23040.0,19,75293.71428571429,"['severe weather', 'severe weather', 'severe weather']",NPCC
 North Carolina,4113.0,6,130633.33333333333,"['severe weather', 'severe weather', 'system operability disruption']",SERC
 North Dakota,720.0,1,34500.0,['public appeal'],MRO
@@ -32,11 +38,15 @@ Ohio,5490.0,12,24689.090909090908,"['intentional attack', 'intentional attack', 
 Oklahoma,2895.0,6,30625.0,"['islanding', 'public appeal', 'severe weather']",SPP
 Oregon,1526.0,5,2875.0,"['severe weather', 'intentional attack', 'intentional attack']",WECC
 Pennsylvania,13619.0,14,151511.08333333334,"['severe weather', 'intentional attack', 'severe weather']",RFC
+Rhode Island,,,,"",
 South Carolina,2415.0,1,50465.0,['severe weather'],SERC
+South Dakota,,,,"",
 Tennessee,5054.0,7,79050.0,"['severe weather', 'severe weather', 'severe weather']",SERC
 Texas,7540.0,17,110595.61538461539,"['severe weather', 'system operability disruption', 'public appeal']",TRE
 Utah,3186.0,12,5000.0,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
 Vermont,50.0,2,0.0,"['intentional attack', 'intentional attack']",NPCC
 Virginia,1355.0,7,77523.42857142857,"['severe weather', 'severe weather', 'severe weather']",SERC
 Washington,1697.0,29,0.0,"['intentional attack', 'intentional attack', 'intentional attack']",WECC
+West Virginia,,,,"",
+Wisconsin,,,,"",
 Wyoming,0.0,2,0.0,"['intentional attack', 'intentional attack']",WECC
