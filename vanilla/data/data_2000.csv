@@ -1,0 +1,49 @@
+state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
+Alabama,3264.0,2,67500.0,"['severe weather', 'severe weather']",SERC
+Arizona,66.0,1,40911.0,['severe weather'],WECC
+Arkansas,,,,"", 
+California,,,,"",WECC
+Colorado,,,,"",WECC
+Connecticut,,,,"",NPCC
+Delaware,,,,"",RFC
+Florida,,,,"",SERC
+Georgia,,,,"",SERC
+Idaho,,,,"",WECC
+Illinois,1200.0,1,239567.0,['severe weather'],SERC
+Indiana,,,,"",MRO
+Iowa,,,,"",MRO
+Kansas,,,,"",SPP
+Kentucky,,,,"",SERC
+Louisiana,,,,"",SERC
+Maine,,,,"",NPCC
+Maryland,,,,"",RFC
+Massachusetts,,,,"",NPCC
+Michigan,,,,"",MRO
+Minnesota,,,,"",MRO
+Mississippi,,,,"",SERC
+Missouri,,,,"",MRO
+Montana,,,,"",WECC
+Nebraska,,,,"",SPP
+Nevada,,,,"",WECC
+New Hampshire,,,,"",NPCC
+New Jersey,,,,"",RFC
+New Mexico,0.0,1,500000.0,['system operability disruption'],WECC
+New York,681.0,1,,['system operability disruption'],NPCC
+North Carolina,11280.0,2,115000.0,"['severe weather', 'severe weather']",SERC
+North Dakota,,,,"",MRO
+Ohio,,,,"",MRO
+Oklahoma,,,,"",SPP
+Oregon,,,,"",WECC
+Pennsylvania,,,,"",RFC
+Rhode Island,,,,"",NPCC
+South Carolina,7440.0,2,107000.0,"['severe weather', 'severe weather']",SERC
+South Dakota,,,,"",MRO
+Tennessee,,,,"",SERC
+Texas,2159.0,3,779333.3333333334,"['severe weather', 'system operability disruption', 'system operability disruption']",TRE
+Utah,,,,"",WECC
+Vermont,,,,"",NPCC
+Virginia,,,,"",SERC
+Washington,,,,"",WECC
+West Virginia,,,,"",RFC
+Wisconsin,,,,"",MRO
+Wyoming,,,,"",WECC

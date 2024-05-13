@@ -1,9 +1,0 @@
-state,max_duration,outages_count,avg_customers_affected,Causes,gird_region
-Alabama,3264.0,2,67500.0,"['severe weather', 'severe weather']",SERC
-Arizona,66.0,1,40911.0,['severe weather'],WECC
-Illinois,1200.0,1,239567.0,['severe weather'],SERC
-New Mexico,0.0,1,500000.0,['system operability disruption'],WECC
-New York,681.0,1,,['system operability disruption'],NPCC
-North Carolina,11280.0,2,115000.0,"['severe weather', 'severe weather']",SERC
-South Carolina,7440.0,2,107000.0,"['severe weather', 'severe weather']",SERC
-Texas,2159.0,3,779333.3333333334,"['severe weather', 'system operability disruption', 'system operability disruption']",TRE
