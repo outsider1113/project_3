@@ -156,7 +156,7 @@ input[type=range]::-ms-thumb {
 #writeup{
   position: absolute;
   left: 50%;
-  bottom: -100px;
+  bottom: -300px;
   transform: translateX(-50%);
   width: 80%;
 }
@@ -179,10 +179,41 @@ input[type=range]::-ms-thumb {
   <p id="writeup">
     Writeup:
     <br>
-    <!-- Nida write here-->
     <br>
+    <!-- Nida write here: update the css for writeup to make it lower-->
     
-    
+    <br>
+    <br>
+    Our work was pretty much split into three parts: data scrubbing/manipulation, chloropleth setup, and addons with everyone also working inbetween.
+    <br>
+    Marcus did on all the work with the data. Using the power outages from purdue universisty (https://www.sciencedirect.com/science/article/pii/S2352340918307182)
+    <br>
+    he split up the data by year, grabbed only the neccesary information, and scrubbed the data
+    <br>
+    of null values. There are still some discrepancies when translated into csvs given the data types.
+    <br>
+    Angel worked on setting up the choropleth map, a guide was followed for setting up the geodata and styling the map accordingly. 
+    <br>
+    This part was the most time consuming as setting up the map to work with our data in svelte was much more difficult than it needed to be. 
+    <br>
+    Eventually we had a lot of issues with svelte and decided to go vanilla using d3. A template choropleth map was used to get started and more 
+    <br>
+    issues arose with the data not being converted properly. Finally a solution was found and the data was able to be properly displayed. This 
+    <br>
+    part took roughly 14 hours in total to complete. FInally is the last part which Nida focused on and it was the addons or dynamic application.
+    <br>
+    We wanted to create a way for the user to change the year they are looking at through some kind of slider. This slider took the most time in 
+    <br>
+    this section as it had to be styled thoroughly in order to be somewhat responsive. The data manipulation part here was straightforward and 
+    <br>
+    updating the map element wasn’t difficult. The next part was the tooltip. Creating a tooltip in d3 was challenging in the sense that finding 
+    <br>
+    the correct location to apply it was difficult. The data at this point was not an issue to grab but styling and generating the correction 
+    <br>
+    location for the tooltip took a lot of research and documentation searching. Overall we spent roughly more than a days worth of time (of actual coding) 
+    <br>
+    on the project and svelte will remain a nightmare to work with.
+
   </p>
 </div>
 <script type="text/javascript">
