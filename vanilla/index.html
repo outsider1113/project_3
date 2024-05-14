@@ -4,13 +4,12 @@
 <meta charset="utf-8">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <style type="text/css">
-
 /* Legend Font Style */
 body {
 	font: 11px sans-serif;
 	background-color: #ffffff;
 }
-        
+
 /* Legend Position Style */
 .legend {
 	position:absolute;
@@ -139,10 +138,10 @@ input[type=range]::-ms-thumb {
   width: 30px;
   transform: translateX(-50%);
 }
-
 </style>
 </head>
 <body>
+<div id="title" style="text-align: center; font-size: 24px; margin-top: 20px;"></div>
 <div id="slider-container">
   <input type="range" id="year-slider" min="2000" max="2016" step="1" value="2000">
   <div class="tick-container">
@@ -303,7 +302,21 @@ slider.addEventListener("input", function() {
   updateMap(selectedYear);
 });
 
+// JavaScript code for dynamic title
+var titleElement = document.getElementById("title");
+
+function updateTitle(year) {
+  titleElement.innerHTML = "Power Outages Throughout: " + year;
+}
+
+// Initial title update based on the default year
+updateTitle(2000);
+
+// Listen for changes in the slider value and update the title accordingly
+slider.addEventListener("input", function() {
+  var selectedYear = this.value;
+  updateTitle(selectedYear);
+});
 </script>
 </body>
 </html>
-    
