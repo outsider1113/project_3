@@ -156,7 +156,7 @@ input[type=range]::-ms-thumb {
 #writeup{
   position: absolute;
   left: 50%;
-  bottom: -300px;
+  bottom: -450px;
   transform: translateX(-50%);
   width: 80%;
 }
@@ -180,8 +180,29 @@ input[type=range]::-ms-thumb {
     Writeup:
     <br>
     <br>
-    <!-- Nida write here: update the css for writeup to make it lower-->
+    We chose a map of the USA because we believe that with data corresponding to specific states, we wanted the user to be able to select a state and see corresponding 
+    <br>
+    information. Our data was also separated by year, so we added an interactive visual encoding which allowed the user to select between years from 2000 to 
+    <br>
+    2016. A lot of our data is missing for some states but we still wanted to be able to compare between the states that we had data for, so we chose a chloropleth
+    <br>
+    map that colored in states by a gradient to see the number of outages in that state for that year. We added a legend so that the user can quickly analyze the 
+    <br>
+    differences in power outage numbers by state. We also added tooltips that provide more information present in our data, such as the average number of customers 
+    <br>
+    affected, the likely causes of the power outages, and the maximum duration of the power outages occurring in that state. We had to make sure that the tooltip box 
+    <br>
+    did not extend too far due to numerical length, so we floored the average customer affected number and removed the brackets and quotation marks in the 'causes' 
+    <br>
+    element for better readability. We also chose a high contrast pink color for the gradient so the user could easily see the differences. We also chose to list the 
+    <br>
+    name of the state on the state in the tooltip for the user's better understanding. In addition, we created a dynamic title that changes when the year chosen 
+    <br>
+    changes on the slider, so every new chloropleth map can be referred to differently. Lastly, we made the legend dynamic, because we know that for each year the 
+    <br>
+    minimum and maximum values for power outages changes.
     
+    <br>
     <br>
     <br>
     Our work was pretty much split into three parts: data scrubbing/manipulation, chloropleth setup, and addons with everyone also working inbetween.
