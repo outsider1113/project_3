@@ -4,22 +4,29 @@
 <meta charset="utf-8">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <style type="text/css">
+
+  
+
 /* Legend Font Style */
 body {
 	font: 11px sans-serif;
 	background-color: #ffffff;
 }
-
+        
 /* Legend Position Style */
 .legend {
 	position:absolute;
 	left:20px;
 	top:30px;
+
+
 }
 
 .axis text {
-	font: 10px sans-serif;
+    font-family: 'Proxima Nova', sans-serif; /* Change font family to Proxima Nova */
+    font-size: 12px; /* Increase font size */
 }
+
 
 .axis line, .axis path {
 	fill: none;
@@ -38,11 +45,13 @@ body {
 
 /* Styling for the slider */
 input[type=range] {
-  width: 100%;
-  height: 30px;
-  -webkit-appearance: none;
-  margin: 10px 0;
-  background: transparent;
+    width: 100%;
+    height: 40px; /* Increase slider height */
+    -webkit-appearance: none;
+    margin: 10px 0;
+    background: transparent;
+    font-family: 'Proxima Nova', sans-serif; /* Change font family to Proxima Nova */
+    font-size: 20px; /* Increase font size */
 }
 
 input[type=range]:focus {
@@ -54,8 +63,8 @@ input[type=range]::-webkit-slider-runnable-track {
   height: 8px;
   cursor: pointer;
   animate: 0.2s;
-  background: #007bff;
-  border-radius: 5px;
+  background: #d14a82;
+  border-radius: 10px; /* Rounder shape */
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -69,9 +78,13 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   margin-top: -6px;
 }
+/* .svg-container{
+     display: inline-block;
+     margin: 0 auto;
+  } */
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #007bff;
+  background: #d3088c;
 }
 
 input[type=range]::-moz-range-track {
@@ -79,14 +92,14 @@ input[type=range]::-moz-range-track {
   height: 8px;
   cursor: pointer;
   animate: 0.2s;
-  background: #007bff;
-  border-radius: 5px;
+  background: #6c1462;
+  border-radius: 15px; /* Rounder shape */
 }
 
 input[type=range]::-moz-range-thumb {
   box-shadow: 1px 1px 1px #c6c6c6;
   border: 1px solid #000000;
-  height: 20px;
+  height: 100px;
   width: 20px;
   border-radius: 50%;
   background: #ffffff;
@@ -104,13 +117,13 @@ input[type=range]::-ms-track {
 }
 
 input[type=range]::-ms-fill-lower {
-  background: #007bff;
-  border-radius: 10px;
+  background: #12b860;
+  border-radius: 15px; /* Rounder shape */
 }
 
 input[type=range]::-ms-fill-upper {
-  background: #007bff;
-  border-radius: 10px;
+  background: #aaba19;
+  border-radius: 15px; /* Rounder shape */
 }
 
 input[type=range]::-ms-thumb {
@@ -133,15 +146,18 @@ input[type=range]::-ms-thumb {
 }
 
 .tick-label {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   width: 30px;
   transform: translateX(-50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 </style>
 </head>
 <body>
-<div id="title" style="text-align: center; font-size: 24px; margin-top: 20px;"></div>
+<div id="title" style="text-align: center; font-size: 24px; margin-top: 20px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"></div>
+
 <div id="slider-container">
   <input type="range" id="year-slider" min="2000" max="2016" step="1" value="2000">
   <div class="tick-container">
@@ -161,28 +177,24 @@ for (var year = 2000; year <= 2016; year++) {
 }
 
 //Width and height of map
-var width = 960;
-var height = 500;
+var width = 900;
+var height = 900;
 
 var lowColor = '#f9f9f9';
 var highColor = '#bc2a66';
 
 // D3 Projection
 var projection = d3.geoAlbersUsa()
-  .translate([width / 2, height / 2]) // translate to center of screen
-  .scale([1000]); // scale things down so see entire US
+  .translate([width/2, height/2]) // translate to center of screen
+  .scale([1011]); // scale things down so see entire US
 
 // Define path generator
 var path = d3.geoPath() // path generator that will convert GeoJSON to SVG paths
   .projection(projection); // tell path generator to use albersUsa projection
 
 //Create SVG element and append map to the SVG
-var svg = d3.select("body")
-  .append("svg")
-  .attr("width", width)
-  .attr("height", height);
 
-  const tooltipdiv = d3.select("body")
+const tooltipdiv = d3.select("body")
   .append("div")
   .attr("class", "tooltip")
   .style("display", "none")
@@ -196,16 +208,26 @@ var svg = d3.select("body")
   .style("line-height", "1em")
   .style("z-index", "300");
 
+var svg = d3.select("body")
+  .append("svg")
+  .attr("width", width)
+  .attr("height", height)
+  .style("position", "absolute")
+  .style("left", "50%")
+  .style("top", "50%")
+  .style("transform", "translate(-50%, -50%)");
 // Function to create legend
 function createLegend(minVal, maxVal) {
   // add a legend
-  var w = 140, h = 300;
+  var w = 145, h = 300;
 
   var key = d3.select("body")
     .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .attr("class", "legend");
+    .attr("class", "legend")
+    .style("position", "absolute")
+    .style("top", "30px");
 
   var legend = key.append("defs")
     .append("svg:linearGradient")
@@ -242,7 +264,18 @@ function createLegend(minVal, maxVal) {
     .attr("class", "y axis")
     .attr("transform", "translate(41,10)")
     .call(yAxis);
+
+  key.append("text")
+  .attr("x", w*1.2)
+  .attr("y", h + 10) // Adjust the position to be below the legend
+  .style("text-anchor", "middle")
+  .style("font-weight", "bold") // Make the font bold
+  .style("font-size", "12px") // Make the font slightly smaller
+  .text("Number of Power Outages")
+  .attr("transform", "rotate(-90," + (w / 2) + "," + (h) + ")");
 }
+
+
 
 // Function to update the map based on the selected year
 function updateMap(year) {
@@ -252,6 +285,7 @@ function updateMap(year) {
       // Convert "NaN" values to 0
       var value = isNaN(parseInt(data[d].outages_count)) ? 0 : parseInt(data[d].outages_count);
       dataArray.push(value);
+      console.log(value);
     }
 
     var minVal = d3.min(dataArray)
@@ -269,6 +303,10 @@ function updateMap(year) {
 
         // Grab data value 
         var dataValue = data[i].outages_count;
+        var max_dur = data[i].max_duration;
+        var avg_cust = Math.floor(parseFloat(data[i].avg_customers_affected)); // Round and floor average customers
+        var causes = data[i].Causes;
+        causes = causes.replace(/[\[\]']/g, ''); 
 
         // Find the corresponding state inside the GeoJSON
         for (var j = 0; j < json.features.length; j++) {
@@ -278,7 +316,9 @@ function updateMap(year) {
 
             // Copy the data value into the JSON
             json.features[j].properties.value = dataValue;
-
+            json.features[j].properties.val2 = max_dur;
+            json.features[j].properties.val3 = avg_cust;
+            json.features[j].properties.val4 = causes;
             // Stop looking through the JSON
             break;
           }
@@ -296,12 +336,16 @@ function updateMap(year) {
         .style("stroke-width", "1") // Set stroke width
         .style("fill", function(d) {
           return ramp(d.properties.value)
-        }).on("mouseenter", function(d) {
+  })
+  .on("mouseenter", function(d) {
     let stateName = d.properties.name;
-    let outages = d.properties.value ; // Assuming you have population data
+    let outages = d.properties.value ; 
+    let customers = d.properties.val3;
+    let cause = d.properties.val4;
+    let md = d.properties.val2;
     tooltipdiv
       .style("display", null)
-      .html(`${stateName}<br>Outages: ${outages.length==0  ? 0: outages}`)
+      .html(`${stateName}<br>Outages: ${outages.length==0  ? 0: outages}<br>Max Duration: ${md.length==0  ? 0: md} minutes<br>Average Customers Affected: ${customers.length==undefined?0:customers}<br>Causes: ${cause.length==0?'Cause unknown':cause}`)
       .style("top", (d3.event.pageY - 10) + "px")
       .style("left", (d3.event.pageX + 10) + "px");
   })
@@ -316,6 +360,13 @@ function updateMap(year) {
 
 // Initial map update based on the default year
 updateMap(2000);
+var titleElement = document.getElementById("title");
+
+function updateTitle(year) {
+  titleElement.innerHTML = "Power Outages Throughout: " + year;
+}
+
+updateTitle(2000);
 
 // Listen for changes in the slider value and update the map accordingly
 var slider = document.getElementById("year-slider");
@@ -324,21 +375,11 @@ slider.addEventListener("input", function() {
   updateMap(selectedYear);
 });
 
-// JavaScript code for dynamic title
-var titleElement = document.getElementById("title");
-
-function updateTitle(year) {
-  titleElement.innerHTML = "Power Outages Throughout: " + year;
-}
-
-// Initial title update based on the default year
-updateTitle(2000);
-
-// Listen for changes in the slider value and update the title accordingly
 slider.addEventListener("input", function() {
   var selectedYear = this.value;
   updateTitle(selectedYear);
 });
+
 </script>
 </body>
 </html>
