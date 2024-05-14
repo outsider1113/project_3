@@ -298,10 +298,10 @@ function updateMap(year) {
           return ramp(d.properties.value)
         }).on("mouseenter", function(d) {
     let stateName = d.properties.name;
-    let outages = d.properties.value; // Assuming you have population data
+    let outages = d.properties.value ; // Assuming you have population data
     tooltipdiv
       .style("display", null)
-      .html(`${stateName}<br>Outages: ${outages}`)
+      .html(`${stateName}<br>Outages: ${outages.length==0  ? 0: outages}`)
       .style("top", (d3.event.pageY - 10) + "px")
       .style("left", (d3.event.pageX + 10) + "px");
   })
